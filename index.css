@@ -1,0 +1,66 @@
+.container{
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    box-sizing: border-box;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+.box{
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    color: black;
+    font-size: 65px;
+    padding-left: 60px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.box:hover{
+    cursor: pointer;
+}
+.box:nth-child(n+1){
+    border-top: none;
+}
+.box:nth-child(n+7){
+    border-bottom: none;
+}
+.box:nth-child(3n+1){
+    border-left: none;
+}
+.box:nth-child(3n+3){
+    border-right: none;
+}
+.myClass{
+    opacity: 0.2;
+}
+button{
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+    position: relative;
+    left: 65px;
+}
+button:hover{
+    background-color: rgb(73, 145, 73);
+}
+.Message{
+    width: 280px;
+    height: 100px;
+    margin-left: 450px;
+    display: none;
+}
+#msg{
+    background-color: rgb(58, 53, 53);
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
