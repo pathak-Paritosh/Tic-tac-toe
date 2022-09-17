@@ -1,14 +1,13 @@
 body{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 .container{
     width: 400px;
     display: grid;
+    margin: auto;
     grid-template-columns: repeat(3,auto);
     box-sizing: border-box;
-    /* margin-left: 350px;
-    margin-top: 50px; */
 }
 .box{
     border: 2px solid black;
@@ -57,7 +56,7 @@ button:hover{
 .Message{
     width: 280px;
     height: 100px;
-    margin-left: 450px;
+    margin: auto;
     display: none;
 }
 #msg{
