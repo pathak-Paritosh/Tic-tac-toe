@@ -1,10 +1,14 @@
+body{
+    display: flex;
+    justify-content: center;
+}
 .container{
     width: 400px;
     display: grid;
     grid-template-columns: repeat(3,auto);
     box-sizing: border-box;
-    margin-left: 350px;
-    margin-top: 50px;
+    /* margin-left: 350px;
+    margin-top: 50px; */
 }
 .box{
     border: 2px solid black;
